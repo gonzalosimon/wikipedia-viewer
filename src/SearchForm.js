@@ -28,11 +28,11 @@ class SearchForm extends React.Component {
         }
       render(){
         return ( 
-           <div>
+           <div className="search-box-container">
              <form onSubmit={this.handleSubmit.bind(this)}>
-               <input type='text' placeholder='Search' onChange={this.handleInputChange.bind(this)} value={this.state.searchTerm}/>
+               <input className="box" type='text' placeholder='Search' onChange={this.handleInputChange.bind(this)} value={this.state.searchTerm}/>
              </form>
-             <p>visit a <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">random article</a></p>
+             <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank"><i class="fa fa-random fa-2x" aria-hidden="true"></i></a>
            </div>
     );
   }

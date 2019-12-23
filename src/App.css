@@ -11,4 +11,96 @@
   font-family: 'Raleway', sans-serif;
  
 }
+i.fa {
+  color: white;
+  padding-top:5px;
+  padding-left: 40px;
+}
+
+.fa:hover {
+  color: #ff6200;
+  transition: 0.4s;
+}
+.box{
+  width: 300px;
+  height: 60px;
+  background: #2b303b;
+  border: none;
+  font-size: 15pt;
+  float: left;
+  color: #fff;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  
+}
+.result-list {
+  width: 100%;
+  padding-top: 50px;
+
+}
+
+.single-result {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  display: block;
+  background-color: #2b303b;
+  padding: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+  border-left: 3px solid #717171;
+  border-right: 3px solid #717171;
+  transition: .1s ease-out all;
+}
+.single-result:hover {
+  color:black;
+  border-color: #ff6200;
+  background-color: white;
+
+}
+
+
+.search-box-container {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #afafaf;
+}
+  a:hover {
+    color: rgb(255, 255, 255);
+ 
+}
+
+::-webkit-input-placeholder {
+  color:    #717171;
+}
+:-moz-placeholder {
+  color:    #717171;
+  opacity:  1;
+}
+::-moz-placeholder {
+  color:    #717171;
+  opacity:  1;
+}
+:-ms-input-placeholder {
+  color:    #717171;
+}
+:placeholder-shown {
+  color:    #717171;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
 

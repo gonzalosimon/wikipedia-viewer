@@ -4,13 +4,13 @@ import './App.css';
 class SingleResult extends React.Component {
       render() {
           return (
-              <a href={this.props.url} target="_blank">
+              <a className="single-result" href={this.props.url} target="_blank">
                   <div>
                       <h3>{this.props.title}</h3>
                       <p>{this.props.description}</p>
                   </div>
               </a>
-          )
+        )
       }
     }
 
@@ -23,7 +23,7 @@ class ResultList extends React.Component {
         });
 
       return (
-       <div>{results}</div>
+       <div className="result-list" >{results}</div>
     );
   }
 }
