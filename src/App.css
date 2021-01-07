@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10% !important;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: "Raleway", sans-serif;
+  transition: 1s;
+  align-items: center;
+}
+
+i.fa {
+  color: white;
+  padding: 30px;
+}
+
+.fa:hover {
+  color: #ff6200;
+  transition: 0.4s;
+}
+.box {
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  color: white;
+  background-color: #2b303b;
+  border: none;
+  font-size: 15pt;
+  border-radius: 15px;
+}
+
+.outcome {
+  color: white;
+  text-decoration: none;
+  font-size: calc(5px + 2vmin);
+  width: 300px;
+  display: block;
+  background-color: #343b49;
+  padding: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-left: 3px solid #717171;
+  border-right: 3px solid #717171;
+  padding-left: 1%;
+}
+.outcome:hover {
+  color: black;
+  border-color: #ff6200;
+  transition: 0.4s;
+  background-color: rgb(232, 225, 225);
+}
+
+a {
+  text-decoration: none;
+  color: #afafaf;
+}
